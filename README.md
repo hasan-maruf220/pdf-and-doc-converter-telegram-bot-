@@ -1,7 +1,7 @@
-📄 PDF & Word Converter Telegram Bot
+PDF & Word Converter Telegram Bot
 A Python-based Telegram bot that allows users to seamlessly convert PDF files to Word (DOCX) and Word files to PDF. It features an interactive menu with buttons to choose the conversion mode.
 
-✨ Features
+Features
 Dual Conversion: Convert PDF to DOCX and DOCX to PDF.
 
 Interactive UI: Uses Inline Keyboard buttons for a better user experience.
@@ -10,7 +10,7 @@ Fast Processing: Files are processed and sent back instantly.
 
 Auto-Cleanup: Temporary files are deleted from the server/PC after conversion to protect privacy and save space.
 
-🚀 Getting Started
+Getting Started
 1. Prerequisites
 Python 3.8+ installed.
 
@@ -37,30 +37,30 @@ Execute the script from your terminal:
 Bash
 
 python bot.py
-🛠 How to Use
+How to Use
 Open your bot in Telegram and press /start.
 
 Select the conversion mode from the buttons:
 
-PDF ➡️ Word
+PDF to Word
 
-Word ➡️ PDF
+Word to PDF
 
 Upload the document you wish to convert.
 
 Wait a few seconds, and the bot will send you the converted file!
 
-📦 Libraries Used
+Libraries Used
 python-telegram-bot - The framework for the Telegram interface.
 
 pdf2docx - Handles the extraction of layout and text from PDF to Word.
 
 docx2pdf - Automates Microsoft Word to export DOCX as PDF.
 
-⚠️ Important Notes
+Important Notes
 OCR: This bot does not support OCR. If the PDF is a scanned image, the Word output will contain images rather than editable text.
 
 Word to PDF Requirement: The docx2pdf library requires Microsoft Word to be installed on the machine running the script. It will not work on headless Linux servers without extra configuration (like LibreOffice).
 
-📜 License
+License
 This project is open-source. Feel free to modify and distribute as needed.
